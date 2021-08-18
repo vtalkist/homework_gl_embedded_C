@@ -54,8 +54,8 @@ void list_remove(LinkedList *list, Node *node)
 		if (tmp != NULL) {
 			tmp->next = node->next;
 		}
-		free(node);
 	}
+	free(node);
 }
 
 Node* list_contains(LinkedList *list, void *data)
