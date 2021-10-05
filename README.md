@@ -1,4 +1,9 @@
 
+1. Install STM32 Cube IDE from st.com
+2. Create a project using CubeMx
+3. Write a program to blink a LED using while() loops
+
+
 1. Read the Linux kernel code style doc;
 2. Write the swap16, swap32, swap64 functions that swap bytes in uint16_t, uint32_t, uint4_t (endiannes conversions);
 3. Write a function than converts the RGB888 data format to RGB565
@@ -26,5 +31,3 @@ new string address or NULL in case of error. Avoid using the standart functions 
 4. Write the "map" function that receives an array of items, its size, and a function to apply to each item
 of the array. "map" could modifu existing array or return a new one.
 5. [OPTIONAL] Explain how the code from the title slide works (or unfold the code in text, make it simpler).
-
-
